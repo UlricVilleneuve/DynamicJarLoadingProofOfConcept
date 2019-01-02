@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ProofOfConceptSQLite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/ProofOfConceptSQLite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
