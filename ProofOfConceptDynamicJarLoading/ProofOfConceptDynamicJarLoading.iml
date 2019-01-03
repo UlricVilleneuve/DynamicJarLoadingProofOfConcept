@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ProofOfConceptServiceContracts" level="project" />
     <orderEntry type="library" name="ProofOfConceptServiceContracts1" level="project" />
+    <orderEntry type="library" name="sqlite-jdbc-3.23.1" level="project" />
   </component>
 </module>

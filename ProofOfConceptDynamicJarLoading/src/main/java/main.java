@@ -19,9 +19,11 @@ import java.util.jar.JarFile;
 
 public class main {
     public static void main(String[] args) {
-        String folderPath = "/home/ulric/IdeaProjects/ProofOfConceptDynamicJarLoading/src/main/java/Modules";
+        String folderPath = "src/main/java/Modules/";
 
         final File folder = new File(folderPath);
+
+        System.out.println(folder.getAbsolutePath());
 
         var jarFiles = loadJarFiles(folder);
 
@@ -49,43 +51,21 @@ public class main {
                 if(IApplicationModule.class.isAssignableFrom(c))
                 {
                     System.out.println(String.format("Found class inheriting IApplicationModule : %s", c.toString()));
+                    var test = (IApplicationModule) c.getDeclaredConstructor().newInstance();
+                    test.Load();
                 }
             }
         }catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }
-
-        try {
-            URL myJarFile = new URL("jar", "", String.format("file:%s", jarFiles.get(0).getName()));
-            URL[] myJars = {myJarFile};
-            URLClassLoader child = new URLClassLoader (myJars , main.class.getClassLoader());
-            Class classToLoad = Class.forName ("com.ProofOfConcept.ServiceContracts.IApplicationModule", true, child);
-
-            ServiceLoader<IApplicationModule> loader = ServiceLoader.load(IApplicationModule.class);
-            ServiceLoader<IApplicationModule> loader1 = ServiceLoader.load(classToLoad, child);
-            var test = loader1;
-            for (IApplicationModule module : loader) {
-                System.out.println("Found class.");
-                System.out.println(module.getClass());
-                module.Load();
-            }
-
-            Method method = classToLoad.getDeclaredMethod ("Load");
-            Object instance = classToLoad.newInstance ();
-            Object result = method.invoke (instance);
-        } catch (MalformedURLException e) {
+        } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
             e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
     }
@@ -94,7 +74,7 @@ public class main {
         var jarFiles = new ArrayList<File>();
         for (final File fileEntry : folder.listFiles()) {
             if (fileEntry.isDirectory()) {
-                loadJarFiles(fileEntry);
+                jarFiles.addAll(loadJarFiles(fileEntry));
             } else {
                 if(GetExtension(fileEntry).equals("jar"))
                 {
