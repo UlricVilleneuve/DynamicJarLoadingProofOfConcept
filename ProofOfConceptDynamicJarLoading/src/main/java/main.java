@@ -41,6 +41,10 @@ public class main {
 
             while (entries.hasMoreElements()) {
                 JarEntry je = entries.nextElement();
+                if(je.getName().endsWith(".jar"))
+                {
+
+                }
                 if (je.isDirectory() || !je.getName().endsWith(".class")) {
                     continue;
                 }

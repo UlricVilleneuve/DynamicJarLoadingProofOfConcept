@@ -3,11 +3,47 @@
   <component name="ChangeListManager">
     <list default="true" id="c35167c4-3983-4acb-b842-0c5c168d4b5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProofOfConceptDynamicJarLoading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProofOfConceptDynamicJarLoading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/ProofOfConceptSQLite.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/ProofOfConceptSQLite.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/Module1/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/Module1/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/Module1/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/Module1/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/Module1/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/Modules/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/main/java/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProofOfConceptDynamicJarLoading/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module1/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module1/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module1/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module1/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module1/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/config/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/database/ProofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/database/proofOfConceptSQLite.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/localization/sqlite-jdbc-3.23.1.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+            <state relative-caret-position="58">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -94,27 +130,6 @@
               <item name="ProofOfConceptDynamicJarLoading" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProofOfConceptDynamicJarLoading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProofOfConceptDynamicJarLoading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProofOfConceptDynamicJarLoading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProofOfConceptDynamicJarLoading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProofOfConceptDynamicJarLoading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProofOfConceptDynamicJarLoading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProofOfConceptDynamicJarLoading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +212,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>54</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -237,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        <state relative-caret-position="58">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
