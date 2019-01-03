@@ -9,4 +9,7 @@ Proof Of Concept
 
 (x) Loading the jar from a folder and finding the class
 
-(o) Instantiating + Using DB
+(x) Instantiating + Using DB
+
+Functional, but the main app loading the modules needs to have the library to use SQLite even if its usage is in the module classes...
+For now, it will remain like this, but maybe we can investigate and create a custom ClassLoader to overcome this.
